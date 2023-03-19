@@ -3,52 +3,66 @@
 .center {
   text-align: center;
 }
-          
-        .container {
-      
-        display: flex;
-        flex-flow: row ;
-        justify-content: center;
-        align-items:center;
-        flex-direction: row;
-        }
 
-      #menu li {
-        display: inline;
-        padding: 10px; ;
-      }
+.justify{
+  text-align: justify;
+}
 
-      #menu li a {
-        text-decoration: none;
-        color: #230c33;
-        font-size: 20px;
-      }
+.container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}  
 
-      #menu li a:hover{
+#menu li {
+  display: inline;
+  padding: 15px;
+  
+}
 
-        color: #9984d4;
-      }
-        
-      .p-30{
-        padding: 30px;
-      }
+#menu li a {
+  text-decoration: none;
+  color: #546de5;
+  font-size: 20px;
+}
 
-      .wh{
-        width: 200px;
-        height:200px;
-      }
-          
-      .tm-social{
-        width: 30px;
-        height: 30px;
-      }
-      
-      .mb-50{
-        margin-bottom: 50px;
-      }
+#menu li a:hover {
+  color: grey;
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+.br-50 {
+  border-radius: 50%;
+}
+
+.wh {
+  width: 130px;
+  height: 130px;
+}
+
+.wh-300{
+  width: 100px;
+  height: 100px;
+
+}
+
+.tm-social {
+  width: 50px;
+  height: 50px;
+}
+
+.mb-50{
+  margin-bottom: 50px;
+}
+
+
 
 /*Estilos da página contato.html*/
 
-.ml-60{
-  margin-left: 60px;
+.ml-50 {
+  margin-left: 50px;
 }
